@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.img {
+  background-size: contain;
+  aspect-ratio: 1/1;
+}
+
+.img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.img1 {
+  background-image: url(https://images.unsplash.com/photo-1637535639749-8641daffa694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img2 {
+  background-image: url(https://images.unsplash.com/photo-1643063738809-9dcb0ba64f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img3 {
+  background-image: url(https://images.unsplash.com/photo-1622648999494-c55cd50ae155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img4 {
+  background-image: url(https://images.unsplash.com/photo-1597216168116-3f910c143a6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1098&q=80);
+}
+
+.img5 {
+  background-image: url(https://images.unsplash.com/photo-1549150712-1d243024db80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img6 {
+  background-image: url(https://images.unsplash.com/photo-1635248914131-294baf451a0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80);
+}
+
+.img7 {
+  background-image: url(https://images.unsplash.com/photo-1590206937608-1d320d60dacf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img8 {
+  background-image: url(https://images.unsplash.com/photo-1640399964139-93aeae944ed0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+}
+
+.img9 {
+  background-image: url(https://images.unsplash.com/photo-1591102077903-d0e6898ba884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+}
+
+.overlay {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  border-radius: 2px;
+  height: 20%;
+  margin-top: 75%;
+}
+
+.josefin {
+  font-family: ‘Josefin Sans’, sans-serif;
+  color: #d9993d;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=portfolio.component.css.map */

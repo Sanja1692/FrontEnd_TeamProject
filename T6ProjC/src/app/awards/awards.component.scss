@@ -1,0 +1,53 @@
+@mixin animate($animation, $duration, $method, $times) {
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+.awards {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.certificates {
+    width: 50%;
+}
+
+#move {
+    @include keyframes (fade) {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @include animate(fade, 1s, linear, 5);
+}
+
+@media screen and (max-width: 600px) {
+    .certificates {
+        width: 85vw;
+    }
+}
+
+#effect {
+    @include keyframes (fromRight) {
+        0% {
+            transform: scale(0.1);
+        }
+        50% {
+            transform: scale(0.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    @include animate(fromRight, 1s, linear, 1);
+}

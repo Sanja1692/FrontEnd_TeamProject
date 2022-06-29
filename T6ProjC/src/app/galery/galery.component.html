@@ -1,0 +1,247 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="navbar-nav me-auto">
+            <a class="nav-link galery" (click)="goDown1()">Weddings</a>
+            <a class="nav-link galery" (click)="goDown2()">Landscape</a>
+            <a class="nav-link galery" (click)="goDown3()">Portraits</a>
+            <a class="nav-link galery" (click)="goDown4()">Babies</a>
+        </div>
+
+    </div>
+</nav>
+
+<!--end of second .navbar-->
+
+
+
+<div class="container">
+    <div class="mt-3">
+        <lib-ngx-image-zoom [thumbImage]=myThumbnail [fullImage]=myFullresImage [magnification]="1" [enableScrollZoom]="true" [enableLens]="true" [lensWidth]="200"></lib-ngx-image-zoom>
+
+    </div>
+    <div id="weddings" class="mt-5">
+        <h1 class="galery">// WEDDING</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w04.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w01.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w02.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w03.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w00.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w05.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w06.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w07.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w000.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w111.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w08.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/w11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="landscape" class="mt-5">
+        <h1 class="galery">// LANDSCAPE</h1>
+
+        <div class="row">
+
+            <!-- card 1 -->
+            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 mt-2">
+                <div class="card bg-dark mbsm">
+                    <img src="../../assets/images/l00.jpg" alt="...">
+                </div>
+            </div>
+
+            <!-- card 2, 3 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mt-2 mb-3">
+                    <img src="../../assets/images/l02.jpg" alt="...">
+                </div>
+                <div class="card bg-dark mb-3">
+                    <img src="../../assets/images/l03.jpg" alt="...">
+                </div>
+            </div>
+
+            <!-- card 4, 5 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mt-2 mb-3">
+                    <img src="../../assets/images/l04.jpg" alt="...">
+                </div>
+                <div class="card bg-dark">
+                    <img src="../../assets/images/l05.jpg" alt="...">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/l07.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/l06.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/l08.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portraits" class="mt-5">
+        <h1  class="galery">// PORTRAITS</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p01.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p02.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p11.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p04.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p05.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p06.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p08.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p10.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="../../assets/images/p07.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="babies" class="mt-5">
+        <h1  class="galery">// BABIES</h1>
+
+        <div class="row">
+
+            <!-- card 1 -->
+            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 mt-2">
+                <div class="card bg-dark mbsm">
+                    <img src="../../assets/images/b01.jpg" alt="...">
+                </div>
+            </div>
+
+            <!-- card 2, 3 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mt-2 mb-5">
+                    <img src="../../assets/images/b02.jpg" alt="...">
+                </div>
+                <div class="card bg-dark mb-3">
+                    <img src="../../assets/images/b03.jpg" alt="...">
+                </div>
+            </div>
+
+            <!-- card 4, 5 -->
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <div class="card bg-dark mt-2 mb-5">
+                    <img src="../../assets/images/b04.jpg" alt="...">
+                </div>
+                <div class="card bg-dark">
+                    <img src="../../assets/images/b05.jpg" alt="...">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/b07.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/b08.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mt-3">
+                <div class="card">
+                    <img src="../../assets/images/b06.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,77 @@
+.img {
+  background-size: contain;
+  aspect-ratio: 1/1;
+  // max-width: 250px;
+}
+
+.img:hover {
+  transform: scale(1.02);
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.img1 {
+  background-image: url(https://images.unsplash.com/photo-1637535639749-8641daffa694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img2 {
+  background-image: url(https://images.unsplash.com/photo-1643063738809-9dcb0ba64f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img3 {
+  background-image: url(https://images.unsplash.com/photo-1622648999494-c55cd50ae155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img4 {
+  background-image: url(https://images.unsplash.com/photo-1597216168116-3f910c143a6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1098&q=80);
+}
+
+.img5 {
+  background-image: url(https://images.unsplash.com/photo-1549150712-1d243024db80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img6 {
+  background-image: url(https://images.unsplash.com/photo-1635248914131-294baf451a0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80);
+}
+
+.img7 {
+  background-image: url(https://images.unsplash.com/photo-1590206937608-1d320d60dacf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+}
+
+.img8 {
+  background-image: url(https://images.unsplash.com/photo-1640399964139-93aeae944ed0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+}
+
+.img9 {
+  background-image: url(https://images.unsplash.com/photo-1591102077903-d0e6898ba884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+}
+
+
+// .imgOverlay:hover {
+//   transform: scale(1.05);
+//   transition: 0.3s;
+//   transition-timing-function: ease-in;
+// }
+
+.overlay {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  // background-color: rgba(217, 217, 217, 0.445);
+  // color: #fca311;
+ 
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  // border: 3px solid grey;
+  border-radius: 2px;
+  height: 20%;
+  margin-top: 75%;
+  // box-shadow: 3px 0px 30px rgba(212, 212, 212, 0.741);
+}
+
+.josefin {
+  font-family: ‘Josefin Sans’, sans-serif;
+  color: rgb(217,153,61);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}

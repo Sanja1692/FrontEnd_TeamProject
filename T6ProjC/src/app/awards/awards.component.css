@@ -1,0 +1,78 @@
+.awards {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.certificates {
+  width: 50%;
+}
+
+#move {
+  -webkit-animation: fade 1s linear 5;
+          animation: fade 1s linear 5;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .certificates {
+    width: 85vw;
+  }
+}
+
+#effect {
+  -webkit-animation: fromRight 1s linear 1;
+          animation: fromRight 1s linear 1;
+}
+
+@-webkit-keyframes fromRight {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+  }
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=awards.component.css.map */

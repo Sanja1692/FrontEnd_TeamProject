@@ -1,0 +1,19 @@
+.contact {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact .map {
+  width: 80%;
+  height: 25rem;
+  aspect-ratio: 1/1;
+}
+
+.contact .list {
+  list-style: none;
+}
+
+.contact .txtarea {
+  resize: none;
+  height: 14rem;
+}
+/*# sourceMappingURL=contacts.component.css.map */

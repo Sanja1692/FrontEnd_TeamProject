@@ -1,0 +1,16 @@
+.contact{
+    font-family: 'Josefin Sans', sans-serif;
+    .map{
+        width: 80%;
+        height: 25rem;
+        aspect-ratio: 1/1
+    }
+    .list{
+        list-style: none;
+        
+    }
+    .txtarea{
+        resize: none;
+        height: 14rem;
+    }
+}
